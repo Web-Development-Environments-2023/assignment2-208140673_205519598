@@ -1,6 +1,7 @@
 // import {StartNewGame} from "./game.js";
 // switch between divs
 function showScreen(screenId) {
+    document.getElementById('scoreList').style.display = 'none';
     const screens = document.getElementsByClassName('screen');
     for (const screen of screens) {
         screen.classList.add('hidden');
