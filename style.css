@@ -150,7 +150,7 @@ input, textarea, select {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    z-index: 1000;
+    z-index: 2;
     padding: 10px 20px;
     margin: 10px;
     width: 150px;
@@ -209,6 +209,7 @@ input, textarea, select {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1001;
 }
 
 .modalContent {
@@ -219,7 +220,6 @@ input, textarea, select {
     width: 80%;
     max-width: 600px;
     position: relative;
-     z-index: 1001;
 }
 
 .close {
