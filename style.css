@@ -219,6 +219,7 @@ input, textarea, select {
     width: 80%;
     max-width: 600px;
     position: relative;
+     z-index: 1001;
 }
 
 .close {
